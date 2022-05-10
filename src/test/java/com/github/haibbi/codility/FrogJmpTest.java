@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class FrogJmpTest {
 
     @Test
-    void name() {
+    void test() {
         FrogJmp frogJmp = new FrogJmp();
         Assertions.assertEquals(3, frogJmp.solution(10, 85, 30));
         Assertions.assertEquals(3, frogJmp.solution(10, 85, 37));
